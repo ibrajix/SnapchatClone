@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Snapchat Clone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map">Map</string>
+    <string name="chat">Chat</string>
+    <string name="camera">Camera</string>
+    <string name="stories">Stories</string>
+    <string name="discover">Discover</string>
+</resources>

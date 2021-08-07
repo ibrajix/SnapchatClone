@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/map_bottom_nav_selector"
+        android:title="@string/map"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/chat_bottom_nav_selector"
+        android:title="@string/chat"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/cameraFragment"
+        android:icon="@drawable/camera_bottom_nav_selector"
+        android:title="@string/camera"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/storiesFragment"
+        android:icon="@drawable/stories_bottom_nav_selector"
+        android:title="@string/stories"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/discoverFragment"
+        android:icon="@drawable/discover_bottom_nav_selector"
+        android:title="@string/discover"
+        android:menuCategory="secondary" />
+
+</menu>
