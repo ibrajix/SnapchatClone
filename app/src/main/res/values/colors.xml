@@ -12,4 +12,6 @@
     <color name="light_grey">#D9D7D7</color>
     <color name="light_grey_2">#f7f7f7</color>
     <color name="main_purple">#c300ff</color>
+    <color name="semi_transparent">#66000000</color>
+
 </resources>

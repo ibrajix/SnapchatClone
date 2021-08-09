@@ -18,6 +18,9 @@
 
         <!--Font-->
         <item name="android:fontFamily">@font/avenir_black</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+
     </style>
 
     <!-- Splash screen theme -->

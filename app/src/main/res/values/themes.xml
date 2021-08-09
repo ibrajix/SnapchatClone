@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.SnapchatClone" parent="Theme.AppCompat.Light.NoActionBar">
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/white</item>
@@ -18,12 +19,16 @@
 
         <!--Font-->
         <item name="android:fontFamily">@font/avenir_black</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+
     </style>
 
     <!-- Splash screen theme -->
     <style name="splashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
+
 
 
 
