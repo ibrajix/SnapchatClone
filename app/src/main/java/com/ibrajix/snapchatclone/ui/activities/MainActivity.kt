@@ -2,6 +2,7 @@ package com.ibrajix.snapchatclone.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
@@ -58,6 +59,16 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.bottomNavigation.itemIconTintList = null
+
+        //if we are viewing stories, hide the bottom navigation
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            if(destination.id == R.id.viewStoriesFragment) {
+
+                binding.bottomNavigation.visibility = View.GONE
+            } else {
+                binding.bottomNavigation.visibility = View.VISIBLE
+            }
+        }
 
 
     }

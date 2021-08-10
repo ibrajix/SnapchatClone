@@ -24,10 +24,19 @@
         android:id="@+id/storiesFragment"
         android:name="com.ibrajix.snapchatclone.ui.fragments.StoriesFragment"
         android:label="fragment_stories"
-        tools:layout="@layout/fragment_stories" />
+        tools:layout="@layout/fragment_stories" >
+        <action
+            android:id="@+id/action_storiesFragment_to_viewStoriesFragment"
+            app:destination="@id/viewStoriesFragment" />
+    </fragment>
     <fragment
         android:id="@+id/discoverFragment"
         android:name="com.ibrajix.snapchatclone.ui.fragments.DiscoverFragment"
         android:label="fragment_discover"
         tools:layout="@layout/fragment_discover" />
+    <fragment
+        android:id="@+id/viewStoriesFragment"
+        android:name="com.ibrajix.snapchatclone.ui.fragments.ViewStoriesFragment"
+        android:label="fragment_view_stories"
+        tools:layout="@layout/fragment_view_stories" />
 </navigation>

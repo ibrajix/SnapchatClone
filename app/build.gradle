@@ -1,6 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
+
+    //safe args
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -78,4 +82,15 @@ dependencies {
     //google maps
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
 
+    //camera X
+    def camerax_version = "1.0.0"
+    // CameraX core library using camera2 implementation
+    implementation "androidx.camera:camera-camera2:$camerax_version"
+    // CameraX Lifecycle Library
+    implementation "androidx.camera:camera-lifecycle:$camerax_version"
+    // CameraX View class
+    implementation "androidx.camera:camera-view:1.0.0-alpha24"
+
+    //stories view
+    implementation 'com.github.shts:StoriesProgressView:3.0.0'
 }
