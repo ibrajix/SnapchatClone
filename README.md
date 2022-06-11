@@ -1,4 +1,6 @@
-# SnapchatClone
+# SnapchatClone << NEEDS MAJOR REFACTOR >>
+
+
 In this repo, I tried to clone SnapChat App by implementing similar design pattern seen in major destinations of the app
 
 ## Screenshots
